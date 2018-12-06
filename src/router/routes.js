@@ -1,10 +1,30 @@
 import React from 'react';
 import LoginPage from '../containers/pages/loginPage';
 import App from '../components/app/App';
+import HomePage from '../components/homePage';
+import Faq from '../components/faq';
 
 const routes = [
   {
-    path: ['/login', '/logout', '', '/'],
+    path: ['/home', '/logout', '', '/'],
+    authenticated: false,
+    action: () => (
+      <App>
+        <HomePage />
+      </App>
+    )
+  },
+  {
+    path: '/faq',
+    authenticated: false,
+    action: () => (
+      <App>
+        <Faq />
+      </App>
+    )
+  },
+  {
+    path: '/login',
     authenticated: false,
     name: 'index-page',
     action: context => (

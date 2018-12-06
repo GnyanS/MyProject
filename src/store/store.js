@@ -3,6 +3,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import { routerMiddleware, routerReducer } from '../router/router';
 import { sagaMiddleware } from './sagas/saga';
 import authReducer from './reducers/authReducer';
+import resultReducer from './reducers/data';
 
 import appConfig from '../appConfig';
 import { identity } from 'lodash';
@@ -10,7 +11,8 @@ import { identity } from 'lodash';
 const configureStore = (initialState = {}) => {
   const rootReducer = combineReducers({
     router: routerReducer,
-    auth: authReducer
+    auth: authReducer,
+    data: resultReducer
   });
 
   // Create the store

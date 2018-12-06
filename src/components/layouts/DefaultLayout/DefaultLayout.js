@@ -1,7 +1,3 @@
-/**
- * Created by bharatm on 4/21/18.
- */
-
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Container } from 'reactstrap';

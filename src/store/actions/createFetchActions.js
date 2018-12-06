@@ -1,5 +1,5 @@
 import { createActions } from 'redux-actions';
-import { identity, camelCase, upperFirst } from 'lodash-es';
+import { identity, camelCase, upperFirst } from 'lodash';
 
 function createFetchActions(resource, options = {}) {
   const actions = createActions({
