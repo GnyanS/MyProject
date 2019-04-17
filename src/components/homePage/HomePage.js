@@ -31,7 +31,7 @@ class HomePage extends React.Component {
         </Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className="modal-max-width">
           <ModalHeader className="new-idea-btn-modal-heading" toggle={this.toggle}>
-            <h4 className="add-new-idea-text">Add a new Idea</h4>
+            <h5 className="add-new-idea-text">Add a new Idea</h5>
           </ModalHeader>
           <ModalBody>
             <h3>Hello World</h3>
