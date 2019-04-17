@@ -1,0 +1,50 @@
+.new-idea-btn {
+  background-color: transparent !important;
+  font-size: 15px !important;
+  color: #3572b0 !important;
+  height: auto !important;
+  cursor: pointer !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: rgb(48, 120, 144) !important;
+  border-image: initial !important;
+  border-radius: 4px !important;
+  margin: 10px 0px 0px 480px !important;
+}
+
+.new-idea-btn:hover {
+  background-color: #3572b0 !important;
+  color: rgb(255, 255, 255) !important;
+  cursor: pointer !important;
+  transition: all 0.4s ease 0s !important;
+}
+.add-new-idea-text {
+  color: black !important;
+  font-size: 20px !important;
+  font-weight: normal !important;
+}
+
+.new-idea-btn-modal-heading {
+  padding-left: 20px !important;
+  padding-top: 12px !important;
+  padding-bottom: 7px !important;
+  padding-right: 20px !important;
+  background-color: rgb(237, 239, 243) !important;
+}
+.new-idea-btn-save {
+  background-color: #3572b0 !important;
+}
+
+.modal-max-width {
+  max-width: 1010px !important;
+}
+
+/* .new-idea-btn-cancel {
+    
+} */
+
+@media (min-width: 992px) {
+  .col-lg-6 {
+    max-width: 45% !important;
+  }
+}

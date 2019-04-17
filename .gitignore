@@ -24,7 +24,7 @@ yarn.lock
 package-lock.json
 
 /.vscode
-*.css
+# *.css
 *.css.map
 
 /src/tests/errorShots
